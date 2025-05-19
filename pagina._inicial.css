@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body {
+    background: linear-gradient(#db82b8, #df2eaa);
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 4%;
+
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 25px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: rgb(30, 10, 10);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(23, 45, 111);
+}
+
+.sessao_principal{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
